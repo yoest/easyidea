@@ -1,2 +1,4 @@
-pywgatkit_dbs.txt
-images/output/
+images/output/**
+
+!/images/output/web-programmer-1-black.png
+!/images/output/web-programmer-1-white.png
