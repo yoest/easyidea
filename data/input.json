@@ -1,0 +1,26 @@
+[
+	{
+		"index": 1,
+		"text": [ "Renewable energy ?", "I'm a big fan" ],
+		"keywords": [ "fan" ],
+		"design": "office-fan"
+	},
+	{
+		"index": 2,
+		"text": [ "I have a joke on programming", "but it only works on my", "computer" ],
+		"keywords": [ "programming", "computer" ],
+		"design": "screen-404-error"
+	},
+	{
+		"index": 3,
+		"text": [ "The 'h' in programming stands for", "'happiness'" ],
+		"keywords": [ "happiness" ],
+		"design": "web-programmer"
+	},
+	{
+		"index": 4,
+		"text": [ "There are 10 types of programmers :", " - Those who understand binary.", " - Those who don't.                        " ],
+		"keywords": [ "binary" ],
+		"design": "binary"
+	}
+]

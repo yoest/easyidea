@@ -1,0 +1,40 @@
+[
+    {
+        "index": 3,
+        "font": "crimson",
+        "list_fonts_index": [
+            1,
+            0
+        ],
+        "type_writing": false
+    },
+    {
+        "index": 2,
+        "font": "teen",
+        "list_fonts_index": [
+            1,
+            1,
+            0
+        ],
+        "type_writing": true
+    },
+    {
+        "index": 1,
+        "font": "merriweather",
+        "list_fonts_index": [
+            0,
+            0
+        ],
+        "type_writing": false
+    },
+    {
+        "index": 4,
+        "font": "raleway",
+        "list_fonts_index": [
+            0,
+            1,
+            1
+        ],
+        "type_writing": false
+    }
+]
