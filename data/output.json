@@ -1,6 +1,20 @@
 [
     {
+        "index": 4,
+        "title": "There are 10 types of programmers :  - Those who understand... - [COLOR]",
+        "description": "Add some fun to your [binary] wardrobe with this funny [binary] design or give it as the perfect gift!",
+        "font": "raleway",
+        "list_fonts_index": [
+            0,
+            1,
+            1
+        ],
+        "type_writing": false
+    },
+    {
         "index": 3,
+        "title": "The 'h' in programming stands for 'happiness' - [COLOR]",
+        "description": "Add some fun to your [happiness] wardrobe with this funny [happiness] design or give it as the perfect gift!",
         "font": "crimson",
         "list_fonts_index": [
             1,
@@ -10,6 +24,8 @@
     },
     {
         "index": 2,
+        "title": "I have a joke on programming but it only works on my... - [COLOR]",
+        "description": "Add some fun to your [programming] wardrobe with this funny [programming] design or give it as the perfect gift!",
         "font": "teen",
         "list_fonts_index": [
             1,
@@ -20,19 +36,11 @@
     },
     {
         "index": 1,
-        "font": "merriweather",
+        "title": "Renewable energy ? I'm a big fan - [COLOR]",
+        "description": "Add some fun to your [fan] wardrobe with this funny [fan] design or give it as the perfect gift!",
+        "font": "roboto",
         "list_fonts_index": [
             0,
-            0
-        ],
-        "type_writing": false
-    },
-    {
-        "index": 4,
-        "font": "raleway",
-        "list_fonts_index": [
-            0,
-            1,
             1
         ],
         "type_writing": false

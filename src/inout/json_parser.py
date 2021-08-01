@@ -53,11 +53,19 @@ class JSONOutputParser:
         """ Set the type writing to the output. """
         self.type_writing = type_writing
 
+
+    def add_description(self, title, description):
+        """ Add a title and a description to the design. """
+        self.title = title
+        self.description = description
+
     
     def save(self):
         """ Save the design to the JSON output file. """
         data = {
             "index": self.INDEX,
+            "title": self.title,
+            "description": self.description,
             "font": self.font,
             "list_fonts_index": self.list_fonts_index,
             "type_writing": self.type_writing

@@ -44,9 +44,11 @@ class DesignHandler:
 
         self.__handle_text(keyword_font_color)
         self.__handle_image()
+        title, description = self.__handle_description()
 
         # Save the created image to the output.
         self.JSON_OUTPUT.add_list_fonts_index(self.list_fonts_index)
+        self.JSON_OUTPUT.add_description(title, description)
         
         return self.JSON_OUTPUT
 
@@ -95,6 +97,29 @@ class DesignHandler:
         # Save the image.
         cv2.imwrite(self.WAITING_FILE, output_image)
         self.editor.clear()
+
+
+    def __handle_description(self):
+        """ Handle the description creation with a title. """
+        # Create the title.
+        title = ""
+        for text in self.DATA['text']:
+            title += text + " "
+
+        # Limit the title to fifty characters.
+        if len(title) > 50:
+            i = 50
+            while title[i] != " ":
+                i += 1
+            title = title[:i] + "... "
+
+        title += "- [COLOR]"
+
+        # Create the description.
+        first_keyword = self.DATA['keywords'][0]
+        description = f"Add some fun to your [{first_keyword}] wardrobe with this funny [{first_keyword}] design or give it as the perfect gift!"
+
+        return title, description
 
 
     def __overlay_image_alpha(self, img, img_overlay, x, y, alpha_mask):
